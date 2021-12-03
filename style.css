@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Karla';
+    src: url('../fonts/Karla-Bold.woff2') format('woff2'),
+        url('../fonts/Karla-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('../fonts/Karla-Regular.woff2') format('woff2'),
+        url('../fonts/Karla-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('../fonts/DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/DMSerifDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Karla', 'Arial', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-list{
+    display: flex;
+}
+.navListItem{
+    margin: 3%;
+    list-style: none;
+    padding: 13px 0px 12px 0px;
+}
+.navListItemButton{
+    border: 1.5px solid #2C2830 ;
+    margin: 3%;
+    list-style: none;
+    padding: 13px 28.5px 12px 28.5px;
+    background-color: #2C2830;
+    
+}
+.navListItemButtonP{
+    color: white;
+    text-decoration: none;
+    
+    font-family: Karla;
+}
+.navListItemP {
+    text-decoration: none;
+    color: #837d88;
+    font-family: Karla;
+    letter-spacing: 1.5px;
+}
+.header{
+    display: flex;
+}
+.navbar{
+    width: 600px;
+    position: absolute;
+    right: 0;
+    margin-right: 45px;
+}
+.header-logo{
+    padding: 31px 1160px 31px 135px;
+}
+.mainTitle{
+    background-color: #2D2641;
+    display: flex;
+    height: 600px;
+}
+.hr{
+    width: 150px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin-top: 105px;
+    margin-left: 135px;
+}
+.title{
+    font-family: "DM Serif Display", 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    width: 630px;
+    height: 140px;
+    margin: 63px 30px 16px 135px;
+}
+.titleText{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    height: 84px;
+    margin: 16px 30px 24px 135px;
+    color: white;
+}
+.mainTitleButton{
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #2C2830;
+    text-decoration: none;
+}
+.mainTitleButtonP{
+    border: 1.5px white solid;
+    width: 176px;
+    height: 40px;
+    padding: 12px 28.5px;
+    margin: 16px 394px 127px 135px;
+    background-color: white;
+}
+.mainTitleImage{
+    margin: 105px 165px 150px 0px;
+}
+.hr2{
+    background-color: #C396C6;
+    width: 150px;
+    height: 1px;
+    margin: 205px 0px 63px 135px;
+}
+.differentTitle{
+    font-family: DM Serif Display;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2C2830;
+    margin: 63px 0px 96px 135px;
+}
+.differentList{
+    display: flex;
+    list-style: none;
+}
+.differentImage{
+    width: 86px;
+    height: 86px;
+    background-color: #96A9C6;
+    border-radius: 100%;
+    margin: 46px 234px 32px 135px;
+}
+.differentImageIcon{
+    padding: 27px 32px;
+}
+.differentHeading{
+    font-family: DM Serif Display;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2C2830;
+    margin: 32px 0px 16px 135px;
+}
+.differentText{
+    font-family: Karla;
+    font-size: 16px;
+    line-height: 26px;
+    color: #837D88;
+    margin: 0px 0px 158px 135px;
+    width: 300px;
+}
+.howWeWork{
+    display: flex;
+    background-color: #2D2641;
+    margin: 0px 135px 150px 135px;
+    height: 250px;
+}
+.howWeWorkText{
+    font-family: DM Serif Display;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.777778px;
+    color: #FFFFFF;
+    width: 475px;
+    height: 112px;
+    margin: 69px 330px 69px 81px;
+}
+.howWeWorkButton{
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #2C2830;
+    background-color: white;
+    margin: 105px 80px 105px 0px;
+    padding: 13px 24px;
+}
+footer{
+    background-color: #FAFAFA;
+    height: 500px;
+}
+.footerPart1{
+    display: flex;
+}
+.footerNavIcons{
+    list-style: none;
+    display: flex;
+}
+.footerNavIconItems{
+  margin: 64px 16px 33px 0px;
+}
+.footerLogo{
+    margin: 67px 800px 85px 135px;
+}
+.hr3{
+    width: 1100px;
+    margin: 0px 135px;
+}
+.footerPart2{
+    display: flex;
+}
+.footerNavSections{
+    list-style: none;
+}
+.footerNavLinks{
+    text-decoration: none;
+    font-family: Karla;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+color: #2D2641;
+}
+.footerNavListItems{
+    font-weight: bold;
+    font-size: 13px;
+    margin: 26px 30px 16px 135px;
+}
+.footerHeading{
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #837D88;
+    margin: 48px 30px 36px 135px;
+}
